@@ -64,13 +64,19 @@ This allows for fast responses to user actions.
 
 # Hardware Design
 
-## Components
-    1x Arduino
-    1x LCD TFT
-    2x joystick
-    1x buzzer
-    1x breadboard
-    resistors
+##  Components
+
+
+
+
+|   Component name       |     Source piece          | Datasheet                                                                                      | 
+|------------------------|---------------------------|------------------------------------------------------------------------------------------------|
+|   **1x Arduino**       | faculty                 | https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega164P-324P-644P-Data-Sheet-40002071A.pdf |
+|    1x LCD TFT          | I bought https://www.aliexpress.com/item/1005005978400236.html?src=google              | https://randomnerdtutorials.com/guide-to-1-8-tft-display-with-arduino/                         |
+|    2x joystick         | faculty                 | https://components101.com/modules/joystick-module                                              |
+|    1x buzzer           | faculty                 | https://www.farnell.com/datasheets/2171929.pdf                                                 |
+|    1x breadboard       | faculty                 |                                                                                                |
+     
 
 
 ![Imagine-1](images/schema_ponggame.png)
@@ -78,7 +84,7 @@ This allows for fast responses to user actions.
 
 | Component         | Arduino Uno Pin |
 |-------------------|------------------|
-| **1.8" TFT Display** |                  |
+| **1.8" TFT Display** |               |
 | LED               | 3.3V             |
 | SCK               | 13               |
 | SDA               | 11               |
@@ -88,9 +94,9 @@ This allows for fast responses to user actions.
 | GND               | GND              |
 | VCC               | 5V               |
 | **Buzzer**        | 7                |
-| **Joystick 1 VRy** | A0                |
-| **Joystick 2 Vry**  | A1                |
-| **Joystick 2 Sw**  | 3                |
+| **Joystick 1 VRy** | A0              |
+| **Joystick 2 Vry**  | A1             |
+| **Joystick 2 Sw**  | 3               |
 
 # Software Design
 
